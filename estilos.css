@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&family=Kanit&display=swap');
+
+/* font-family: 'Anton', sans-serif; */
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Kanit', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+    font-family: DM Serif Display, serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.barra{
+    margin-left: 450px;
+}
+
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.barra a{
+    color: white;
+    text-decoration: none;
+}
+
+.barra a:hover{
+    color: black;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(media/prueba1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.call {
+    margin-left: 40px;
+    border-radius: 10px;
+    color: black;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(212, 212, 212);
+    font-family: DM Serif Display, serif;
+    font-size: 27px;
+    padding: 20px;
+}
+
+.jumbotron{
+    background-color: rgb(22, 103, 118);
+    width: 550px;
+    margin-left: 40px;
+
+}
+
+h1{
+    margin-bottom: 15px;
+    font-size: 90px;
+}
+
+.call p{
+    margin-bottom: 25px;
+}
+
+.call a{
+    background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.call a:hover{
+    background-color: grey;
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+footer p{
+    font-family: Anton, sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer a{
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.cara h2{
+    text-align: center
+}
+
+.cara{
+    background-image: url(media/cara.png);
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+}
+
+.cara h2{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.cara p{
+    font-size: 25px;
+    margin-left: 600px;
+}
+
+.cara p a{
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 3px;
+}
+
+.cara2{
+    background-color: gray;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.cara2 p{
+    font-family: Anton, sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.cara2 a{
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.podcast{
+    background-image: none;
+    float: center top;
+    padding-left: 280px;
+    padding-right: 280px;
+    margin-top: 100px;
+}
+
+.podcast h2{
+    font-family: DM Serif Display, serif;
+    margin: 10px
+}
+
+.podcast p{
+    font-family: Kanit, sans-serif;
+    font-size: 18px;
+    color: rgb(99, 99, 99);
+    margin-bottom: 10px;
+}
+
+.contacto{
+    background-image: none;
+    background-color: rgb(213, 213, 213);
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+    font-size: 35px;
+    padding: 150px;
+    border: 5px;
+    border-style: dashed;
+    border-color: black;
+}
+
+.contacto a i{
+    color: black;
+    font-size: 60px;
+    margin-left: 300px;
+    padding: 5px
+}
+
+.productos{
+    background-image: none;
+    background-color: rgb(255, 255, 255);
+    height: 900px;
+    display: grid
+}
+
+.col-xs-4{
+    display: grid
+}
+
+section{
+    display: grid
+}
+.carta{
+    width: 20%;
+    height: 475px;
+    background-color: grey;
+    border: 4px solid black;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.carta-img{
+    background-image: url(media/producto1.png) ;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carta h3{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.carta h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+.carta p{
+    text-align: center;
+    padding: 20px;
+}
+
+.carta a{
+    background-color: rgb(194, 108, 108);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Anton, sans-serif;
+    padding: 5px;
+}
+
+.carta a:hover{
+    color: aliceblue;
+}
+
+.card-text{
+    font-family: Kanit, sans-serif;
+}
+
+.card-title{
+    font-family: DM Serif Display, serif;
+    font-size: 40px;
+}
+
+@media screen and (min-width:200px) and (max-width:550px) {
+    .navbar-nav{
+        display: none !important;
+    }
+
+    .call{
+        width: auto;
+        height: 300px;
+        font-size: 10px;
+        margin: 8px;
+        margin-bottom: 40px;
+    }
+
+    .call p{
+        font-size: 18px;
+    }
+
+    .call a{
+        font-size: 18px;
+
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    .jumbotron{
+        font-size: 60px;
+        width: auto;
+        height: 300px;
+        margin: 8px;
+    }
+
+    .jumbotron p{
+        width: auto;
+        font-size: 20px;
+    }
+
+    input{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    main{
+        background-image: none;
+    }
+}
+
+@media screen and (min-width:551px) and (max-width:767px){
+    .navbar-nav{
+        display: none !important;
+    }
+
+    
+    .call{
+        width: auto;
+        height: 350px;
+        font-size: 15px;
+        margin: 8px;
+        margin-bottom: 40px;
+    }
+
+    .call p{
+        font-size: 25px;
+    }
+
+    .call a{
+        font-size: 20px;
+
+    }
+
+    h1{
+        font-size: 70px;
+    }
+
+    .jumbotron{
+        font-size: 70px;
+        width: auto;
+        height: 350px;
+        margin: 8px;
+    }
+
+    .jumbotron p{
+        width: auto;
+        font-size: 30px;
+    }
+
+    input{
+        font-size: 30px;
+    }
+
+    main{
+        background-image: none !important;
+    }
+
+}
